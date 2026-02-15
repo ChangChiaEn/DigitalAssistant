@@ -1,0 +1,19 @@
+{
+  "name": "digital-assistant",
+  "version": "1.0.0",
+  "description": "Desktop AI Assistant with voice control, skills system, and Colab LLM backend",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "electron-store": "^6.0.1",
+    "node-fetch": "^2.7.0",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "electron": "^40.4.1"
+  }
+}

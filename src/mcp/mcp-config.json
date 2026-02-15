@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "name": "File System",
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-filesystem"],
+      "env": {
+        "ALLOWED_DIRS": "C:\\Users"
+      },
+      "url": null
+    },
+    "web-search": {
+      "name": "Web Search",
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-web-search"],
+      "env": {},
+      "url": null
+    }
+  }
+}
