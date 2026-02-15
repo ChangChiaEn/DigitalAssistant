@@ -1,5 +1,6 @@
 node_modules/
 .env
+.env.local
 dist/
 *.log
 settings.json
@@ -21,3 +22,17 @@ Desktop/AssistantOutput/
 *.png
 *.jpg
 *.jpeg
+
+# Claude AI settings
+.claude/settings.local.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
